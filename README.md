@@ -13,7 +13,7 @@
 ### Usage
 
 ```bash
-docker run -d -p 9000:9000 -v /var/run/docker.sock:/docker.sock microbox/dockerui
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/docker.sock microbox/dockerui:latest
 ```
 
-visit http://localhost:9000 to see the UI
+Visit http://docker-ip:9000 to see the WebUI
